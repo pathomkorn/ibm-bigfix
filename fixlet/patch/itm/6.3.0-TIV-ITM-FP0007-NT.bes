@@ -4,7 +4,7 @@
 		<Title>6.3.0-TIV-ITM-FP0007-NT</Title>
 		<Description></Description>
 		<Relevance>name of operating system starts with "Win"</Relevance>
-		<Relevance><![CDATA[(exists ((following texts of firsts "=" of lines whose (it starts with "VRMF=") of files whose (name of it starts with "KNT" and name of it ends with ".ver") of folder "C:\IBM\ITM\InstallITM\ver") as integer, 06230700) whose (item 0 of it < item 1 of it)) | false]]></Relevance>
+		<Relevance><![CDATA[(exists ((following texts of firsts "=" of lines whose (it starts with "VRMF=") of files whose (name of it starts with "KNT" and name of it ends with ".ver") of folder "C:\IBM\ITM\InstallITM\ver") as integer, 06300700) whose (item 0 of it < item 1 of it)) | false]]></Relevance>
 		<Category></Category>
 		<Source></Source>
 		<SourceID></SourceID>
