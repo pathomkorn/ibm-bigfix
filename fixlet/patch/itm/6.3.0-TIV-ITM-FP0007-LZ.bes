@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BES.xsd">
+	<Fixlet>
+		<Title>6.3.0-TIV-ITM-FP0007-LZ</Title>
+		<Description></Description>
+		<Relevance>name of operating system starts with "Linux"</Relevance>
+		<Relevance><![CDATA[(exists ((following texts of firsts " = " of lines whose (it starts with "VRMF = ") of files whose (name of it starts with "lz" and name of it ends with ".ver") of folder "/opt/IBM/ITM/registry") as integer, 06300700) whose (item 0 of it < item 1 of it)) | false]]></Relevance>
+		<Category></Category>
+		<Source></Source>
+		<SourceID></SourceID>
+		<SourceSeverity></SourceSeverity>
+		<CVENames></CVENames>
+		<SANSID></SANSID>
+		<MIMEField>
+			<Name>x-fixlet-modification-time</Name>
+			<Value>Wed, 06 Jul 2016 09:35:20 +0000</Value>
+		</MIMEField>
+		<Domain>BESC</Domain>
+	</Fixlet>
+</BES>
